@@ -1,0 +1,30 @@
+
+
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  li {
+     list-style: none;
+     margin-left: 40px;
+  }
